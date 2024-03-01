@@ -5,7 +5,7 @@
 
 int sc_main(int, char**)
 {
-    kpn kahn("kpn");
+    kpn<unsigned int> kahn("kpn");
     sc_start();
     return 0;
 }
